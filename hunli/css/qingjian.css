@@ -1,0 +1,136 @@
+body, ul, li, ol, img, a, i, input, form, h1, h2, h3, h4, h5, h6, p, b, dl, dt, dd, td, th, pre, span {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+
+}
+body,html{
+    width:100%;
+    height:100%;
+background: #F0F0F0;
+    
+}
+.box{
+    width:100%;
+    height:100%;
+    /*position:relative;*/
+}
+.top{
+	width:100%;
+	height:1rem;
+	background:white;
+	position:fixed;
+	top:0;
+	left:0;
+	z-index:5;
+}
+.xuan{
+	width:4rem;
+	height:100%;
+	margin:0 auto;
+     text-align:center;
+     line-height:1rem;
+     font-size:0.45rem;
+	color:#FA9965;     
+}
+.wode{
+	width:2rem;
+	height:100%;
+	position:absolute;
+	top:0;
+	right:0;
+	 font-size:0.34rem;
+	 line-height:1rem;
+	 text-align:center;
+	color:#FA9965; 
+	 
+}
+.center{
+	width:92%;
+	height:100%;
+	margin:0 auto;
+	/*background:red;*/
+    margin-top:1.3rem;
+    margin-bottom:4.35rem;
+	
+}
+.shang{
+	width:100%;
+	height:5.4rem;
+	/*background:yellow;*/
+	position:relative;
+}
+.xia{
+	width:100%;
+	height:5.4rem;
+/*	background: yellowgreen;*/
+	position:relative;
+	margin-top:0.2rem;
+	
+}
+
+.left{
+	width:3.2rem;
+	height:5.2rem;
+	border-radius:0.2rem;
+	border:0.03rem solid white;
+}
+.right{
+	width:3.2rem;
+	height:5.2rem;
+	border-radius:0.2rem;
+	border:0.03rem solid white;
+	position:absolute;
+	right:0;
+}
+.bottom {
+    width:100%;
+    height: 1.2rem;
+    position: fixed;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin:0 auto;
+    background: #fff;
+    border-top:0.03rem solid #D3D3D3;
+
+}
+.bottom ul{
+	width:100%;
+	height:100%;
+}
+.shouye{
+	width:25%;
+	height:100%;
+	
+	position:relative;
+	float:left;
+}
+.shouye img{
+	 width:0.6rem;
+    height:0.6rem;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:0.05rem;
+}
+.home1{
+	display:none;
+	/*display: block;*/
+}
+
+.bottom ul li a {
+    display:block;
+    width:0.8rem;
+    height:0.3rem;
+    font-size:0.24rem;
+    position: absolute;
+    left:0.72rem;
+    top:0.7rem;
+    right:0;
+    margin-top:0 auto;
+    color:#BBBBBB;
+}

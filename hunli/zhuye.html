@@ -1,0 +1,228 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="initial-scale=1.0, maximum-scale=1.0, user-scalable=no" />
+    	<link rel="stylesheet" href="css/animate.min.css" />
+		<link rel="stylesheet" href="css/swiper.min.css" />
+		<link rel="stylesheet" href="css/index.css" />
+		<script src="js/jquery-3.1.0.js"></script>
+		<script src="js/swiper.min.js"></script>
+	    <script src="js/swiper.animate1.0.2.min.js"></script>
+	    <script src="js/index.js"></script>
+    
+    <title></title>
+  </head>
+  <script>
+    function resize(originSize,type){
+        var type=type||"x";
+        var widths=document.documentElement.clientWidth;
+        var heights=document.documentElement.clientHeight;
+  
+        if(type=="x"){
+        	 var scale=widths/originSize*100;
+        	 alert(scale)
+        }else if(type=="y"){
+        	 var scale=heights/originSize*100;
+        }
+        //alert(widths)
+       
+        document.getElementsByTagName("html")[0].style.fontSize=scale+"px";
+
+    }
+    window.onload=function(){
+        resize(1334,"y");
+    }
+    
+  
+</script>
+<body>
+<div class="box">
+	<div class="top">
+		<div class="zhong">
+		<div class="left">
+	    北京
+		</div>
+		<div class="center">小两口婚礼</div>
+		<div class="right">
+			<img src="img/fangda.png" alt="" class="dianhua"/>
+			<img src="img/dianhua.png" alt="" class="fangda"/>
+		</div>
+	</div>
+	</div>
+<div class="swiper-container innter">
+    <div class="swiper-wrapper">
+        <div class="swiper-slide">
+        <img src="img/1.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+        	<img src="img/2.jpg" alt="" />
+        </div>
+        <div class="swiper-slide">
+        	<img src="img/3.jpg" alt="" />
+        </div>
+         <div class="swiper-slide">
+         	<img src="img/4.jpg" alt="" />
+         </div>
+    </div>
+    <!-- 如果需要分页器 -->
+    <div class="swiper-pagination"></div>
+    
+</div>
+<div class="tubiao-box">
+<ul class="tubiao">
+	
+	<li>
+		<div class="yuan1">
+			<a href="hunqingliebiao.html"><img src="img/dangao.png" alt="" /></a>
+		</div>
+		<p class="zhao">找婚庆</p>
+	</li>
+	<li>
+		<div class="yuan2">
+			<img src="img/wediing_feast.png" alt="" />
+		</div> 
+		<p class="ding">订婚宴</p>
+	</li>
+	<li>
+		<div class="yuan3">
+			<img src="img/wedding_photo.png" alt="" />
+		</div>
+		<p class="pai">拍婚照</p>
+	</li>
+	<li>
+		<div class="yuan4">
+			<img src="img/wediing_manger.png" alt="" />
+		</div>
+		<p class="hun">婚礼管家</p>
+	</li>
+	
+</ul>
+</div>
+<div class="quanqiu">
+	<img src="img/home_travel.png" alt="" />
+</div>
+   
+  <div class="swiper-container swiper-container-horizontal" id="swiper-container1">
+	<div class="swiper-wrapper swiper-wrapper1" style="transition-duration: 0ms; transform: translate3d(-1066.67px, 0px, 0px);">
+		<div class="swiper-slide tu tu1" >
+			<img src="img/7.jpg" alt="" />
+			</div>
+		<div class="swiper-slide  tu tu2" >
+			<img src="img/8.jpg" alt="" />
+		</div>
+		<div class="swiper-slide  tu tu3" >
+			<img src="img/9.jpg" alt="" />
+		</div>
+		<div class="swiper-slide  tu tu4 swiper-slide-prev" >
+			<img src="img/10.jpg" alt="" />
+		</div>
+	
+	</div>
+  </div>
+
+<div class="youhui">
+	<div class="youhui-top">
+		<div class="top-center">
+			<div class="logo">
+				Sunny喜铺
+			</div>
+			<span>Sunny喜铺婚礼策划</span>
+			<div class="hunqing">婚庆</div>
+			<div class="top-right">+关注</div>
+		</div>
+	</div>
+	<div class="youhui-tu">
+		<img src="img/a.jpg" alt="" />
+	</div>
+	<div class="youhui-buttom">
+【专属婚礼特价日】想特批优惠，抢迪士尼浪漫游玩套票
+<span class="riqi">2016.08.10-2017.01.01</span>
+	</div>
+ </div>
+<div class="youhui youhui-two">
+	<div class="youhui-top">
+		<div class="top-center">
+			<div class="logo logo1">
+				优悦婚礼
+			</div>
+			<span>优悦婚礼策划</span>
+			<div class="hunqing hunqing1">婚庆</div>
+			<div class="top-right">+关注</div>
+		</div>
+	</div>
+	<div class="youhui-tu">
+		<img src="img/b.jpg" alt="" />
+	</div>
+	<div class="youhui-buttom">
+		<span class="ding">
+                        订单加购1块送万元大礼包
+       </span>
+<span class="riqi">2016.12.07-2016.12.31</span>
+	</div>
+ </div>
+ 
+ <div class="youhui youhui-three">
+	<div class="youhui-top">
+		<div class="top-center">
+			<div class="logo">
+				优悦婚礼
+			</div>
+			<span>优悦婚礼策划</span>
+			<div class="hunqing hunqing1">婚庆</div>
+			<div class="top-right">+关注</div>
+		</div>
+	</div>
+	<div class="youhui-tu">
+		<img src="img/c.jpg" alt="" />
+	</div>
+	<div class="youhui-buttom">
+     <span class="ding">圣诞特惠轻奢套系，更走心的优惠</span>
+<span class="riqi">2016.12.08-2016.12.31</span>
+	</div>
+ </div>
+ <div class="bottom">
+ 	 <ul>
+            <li class="shouye">
+                <img src="img/home_bottom_tab_home_checked.png" alt="" class="home ">
+                <img src="img/home_bottom_tab_home.png" alt=""  class="home1"/>
+                <a href="zhuye.html">首页</a>
+            </li>
+            <li class="shouye">
+                <img src="img/home_bottom_tab_category.png" alt="" class="home">
+                <img src="img/home_bottom_tab_category_checked.png" alt=""  class="home1"/>
+                <a href="fenlei.html">分类</a>
+            </li>
+            <li class="shouye">
+                <img src="img/home_bottom_tab_invitation.png" alt="" class="home ">
+                <img src="img/home_bottom_tab_invitation_check.png" alt="" class="home1"/>
+                <a href="qingjian.html">请柬</a>
+            </li>
+            <li class="shouye">
+                <img src="img/home_bottom_tab_my.png" alt="" class="home">
+                <img src="img/home_bottom_tab_my_checked.png" alt="" class="home1"/>
+                <a href="wode.html">我的</a>
+            </li>
+        </ul>
+ </div>
+</div> 
+</body>
+</html>
+<script>        
+      
+var mySwiper = new Swiper ('.innter', {
+//  direction: 'vertical',
+    loop: true,
+    // 如果需要分页器
+    pagination: '.swiper-pagination',
+    
+})      
+  
+var mySwiper1 = new Swiper('#swiper-container1',{
+	
+	watchSlidesProgress : true,
+	watchSlidesVisibility : true,
+    slidesPerView : 2,
+     
+})
+ </script>

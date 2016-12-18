@@ -1,0 +1,130 @@
+.box{
+	width:100%;
+	height:100%;
+	background:red;
+	position:relative;
+}
+.beijing{
+	position:fixed;
+	left:0;
+	top:0;
+	width:100%;
+	height:100%;
+}
+.user{
+	width:5rem;
+	height:1rem;
+	background:black;
+	opacity:0.1;
+	position:absolute;
+	left:0;
+	right:0;
+	top:5.5rem;
+	margin:0 auto;
+	z-index:5;
+	border-radius:5rem;
+	border:0.03rem solid #401636;
+	
+}
+.username{
+			background:none;
+			border:0;
+			position:absolute;
+			 top:0.3rem;
+            left:1rem;
+			font-size:0.30rem;
+			color:white;
+}
+.pass{
+	width:5rem;
+	height:1rem;
+	background:black;
+	opacity:0.1;
+	position:absolute;
+	left:0;
+	right:0;
+	top:7rem;
+	margin:0 auto;
+	/*z-index:5;*/
+	border-radius:5rem;
+	border:0.03rem solid #401636;
+	
+}
+.logo{
+	width:5rem;
+	height:1rem;
+	background:#E3E8F7;
+	position:absolute;
+	left:0;
+	right:0;
+	top:8.5rem;
+	margin:0 auto;
+	border-radius:5rem;
+	text-align:center;
+	line-height:1rem;
+	font-size:0.40rem;
+	color:#999999;
+}
+.logo a{
+	color:#999999;
+}
+.cm{
+   width:0.5rem;
+   height:0.5rem;
+    position:absolute;
+    top:5.7rem;
+    left:1.5rem;
+}
+.dj{
+	width:0.5rem;
+   height:0.5rem;
+    position:absolute;
+    top:7.2rem;
+    left:1.5rem;
+}
+
+.password{
+	background:none;
+			border:0;
+			position:absolute;
+			 top:7.3rem;
+            left:2.2rem;
+			font-size:0.30rem;
+			color:white;
+}
+.zhuce{
+	color:#999999;
+	position:absolute;
+	top:10rem;
+           left:0;
+           right:0;
+           margin:0 auto;
+			font-size:0.40rem;
+		text-align:center;
+}
+.zhuce a{
+	color:#999999;
+}
+.bian{
+	width:1.2rem;
+	height:0.03rem;
+	background:#D8C7C3;
+	position:absolute;
+	top:10.25rem;
+	left:1.3rem;
+}
+.bian-you{
+	position:absolute;
+	top:10.25rem;
+	left:5rem;
+}
+.wang{
+	color:#999999;
+	position:absolute;
+	top:11rem;
+           left:0;
+           right:0;
+           margin:0 auto;
+			font-size:0.40rem;
+		text-align:center;
+}

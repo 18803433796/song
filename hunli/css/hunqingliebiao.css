@@ -1,0 +1,275 @@
+.box{
+	width:100%;
+	height:100%;
+}
+.top{
+	width:100%;
+	height:1rem;
+	background:white;
+	position:fixed;
+	left:0;
+	top:0;
+	z-index:5;
+}
+.center{
+	width:92%;
+	height:100%;
+	
+	margin:0 auto;
+}
+.left{
+	width:15%;
+	height:100%;
+	/*background: red;*/
+	float:left;
+	position:relative;
+}
+.zhongbu{
+	width:60%;
+	height:100%;
+	float:left;
+	/*background:yellow;*/
+}
+.zhong{
+	width:4.07rem;
+	height:0.6075rem;
+	top:0.2rem;
+	margin:0 auto;
+	border-radius:1.5rem 1.5rem 1.5rem 1.5rem;
+	border:0.03rem solid #EF6E21;
+	position:relative;
+	overflow:hidden;
+}
+.zhong div{
+	width:1.3rem;
+	height:0.7rem;
+	border-right:0.03rem solid #EF7228;
+	float:left;
+	line-height:0.65rem;
+	text-align:center;
+	font-size:0.36rem;
+
+	color:#EF7228;
+}
+.zhong .disan{
+	width:1.42rem;
+ border-right:none;
+}
+.zhong .dier{
+	height:0.7rem;
+	background:#EF6E21;
+	color:white;
+}
+.right{
+	width:25%;
+	height:100%;
+   /* background:green;*/
+	float:left;
+	position:relative;
+}
+.center img{
+	width:0.4rem;
+	height:0.4rem;
+}
+.left img{
+	position:absolute;
+	left:0;
+	top:0.3rem;
+}
+.right img{
+	position:absolute;
+	right:0;
+	top:0.3rem;
+}
+.right .tool{
+	position:absolute;
+	right:1rem;
+	top:0.3rem;
+}
+.one{
+	width:100%;
+	height:5rem;
+	background:white;
+	margin-top:1.3rem;
+	position:relative;
+}
+.imgbox{
+	display:none;
+}
+.anli-box{
+	display:block;
+}
+.su{
+	width:100%;
+	height:4rem;
+	
+}
+.black{
+	width:1rem;
+	height:1rem;
+	position:absolute;
+	right:0.5rem;
+	top:0.5rem;
+	border-radius:0.1rem;
+	background:black;
+	opacity:0.4;
+}
+.xingxing{
+	width:0.4rem;
+	height:0.4rem;
+	position:absolute;
+	right:0.3rem;
+	top:0.2rem;
+}
+.black span{
+	color:white;
+	font-size:0.12rem;
+	position:absolute;
+	right:0.4rem;
+	top:0.6rem;
+}
+.one-bottom{
+	width:92%;
+	height:1rem;
+	/*background:red;*/
+	margin:0 auto;
+	position:absolute;
+	bottom:0;
+	left:0;
+	right:0;
+	
+}
+.bottom1{
+	font-size:0.30rem;
+	position:absolute;
+	left:0rem;
+	top:0.2rem;
+}
+.bottom2{
+	font-size:0.26rem;
+	position:absolute;
+	left:0rem;
+	top:0.6rem;
+	color:#999999;
+}
+.one-bottom p{
+	font-size:0.34rem;
+	color:#F8742D;
+	position:absolute;
+	right:0;
+	top:0.3rem;
+}
+.two{
+	margin-top:0.3rem;
+}
+/**3**/
+.cehua{
+	width:100%;
+	height:3rem;
+	background:white;
+	margin-top:1.3rem;
+}
+.left-cehua{
+	width:30%;
+	height:3rem;
+	/*background:red;*/
+	float:left;
+}
+.left-cehua img{
+	width:100%;
+	height:50%;
+	margin-top:0.3rem;
+	
+}
+.right-cehua{
+	width:70%;
+	height:100%;
+	/*background:yellow;*/
+	float:left;
+}
+.right-conter{
+	width:92%;
+	height:100%;
+	margin:0 auto;
+	background:white;
+}
+.right-shang{
+	width:100%;
+	height:60%;
+	border-bottom:0.03rem dashed #ccc;
+	position:relative;
+}
+.shang1{
+	font-size:0.36rem;
+	position:absolute;
+	left:0;
+	top:0.3rem;
+}
+.shang2{
+	font-size:0.28rem;
+	position:absolute;
+	left:0;
+	top:0.8rem;
+}
+.right-shang div{
+	font-size:0.28rem;
+	position:absolute;
+	left:0;
+	top:1.2rem;
+	color:#BBBBBB;
+}
+.right-shang p{
+	font-size:0.28rem;
+	position:absolute;
+	left:1.6rem;
+	top:0rem;
+	color:#F88040;
+}
+.xing{
+	width:0.3rem;
+	height:0.3rem;
+	position:absolute;
+	left:2.2rem;
+	top:0rem;
+}
+.shang3{
+	position:absolute;
+	left:2.6rem;
+	top:0rem;
+}
+.dian{
+	width:0.4rem;
+	height:0.4rem;
+	position:absolute;
+	right:0;
+	top:1rem;
+}
+.right-xia{
+	position:relative;
+}
+.hui img{
+	width:0.4rem;
+	height:0.4rem;
+	position:absolute;
+	left:0;
+	top:0.1rem;
+}
+.hui span{
+	font-size:0.24rem;
+	position:absolute;
+	left:0.6rem;
+	top:0.1rem;
+}
+.hui .pinglun{
+	position:absolute;
+	left:0;
+	top:0.6rem;
+}
+.hui .pingzi{
+	position:absolute;
+	left:0.6rem;
+	top:0.6rem;
+}
+.cehua1{
+	margin-top:0.3rem;
+}
