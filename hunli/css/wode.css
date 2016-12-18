@@ -1,0 +1,150 @@
+.box{
+	width:100%;
+	height:100%;
+/*	background:white;*/
+	
+}
+.top{
+	width:100%;
+	height:3.6rem;
+	background:url(../img/my_profile_header_bg.jpg)no-repeat;
+	background-size:cover;
+	position:relative;
+	
+}
+.yuan{
+	width:2rem;
+	height:2em;
+	background:#F8E8E9;
+	border-radius:50%;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:0.5rem;
+}
+.kuang{
+	width:1.8rem;
+	height:1.8rem;
+	background:red;
+	border-radius:50%;
+	border:0.06rem solid #FBFDF7;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:0.05rem;
+}
+.kuang img{
+	width:100%;
+	height:100%;
+}
+.bianji{
+	width:1.6rem;
+	height:0.6rem;
+	background:#EF6F20;
+	border-radius:5rem;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:2.7rem;
+	box-shadow:0 0.05rem 0.05rem black;
+	color:white;
+	line-height:0.6rem;
+	text-align:center;
+	font-size:0.24rem;
+}
+.yuyue{
+	width:100%;
+	height:1rem;
+	background:white;
+	
+}
+.center{
+	width:92%;
+	height:100%;
+	margin:0 auto;
+	/*background:yellow;*/
+	position:relative;
+}
+.center img{
+	width:0.4rem;
+	height:0.4rem;
+	position:absolute;
+	top:0.3rem;
+}
+.center span{
+	font-size:0.30rem;
+	margin-left:0.7rem;
+	position:absolute;
+	top:0.3rem;
+}
+.jiantou{
+  position:absolute;
+  right:0;
+  color:#A7A7A7;
+}
+.guanzhu{
+	margin-top:0.3rem;
+	border-bottom:0.03rem solid #F4F4F4;
+}
+.shoucang{
+	border-bottom:0.03rem solid #F4F4F4;
+}
+.shezhi{
+	border-bottom:none;
+}
+.center .ke{
+	color:#FFAD71;
+	margin-left:2.4rem;
+}
+.bottom {
+    width:100%;
+    height: 1.2rem;
+    position: fixed;
+    left: 0;
+    right:0;
+    bottom: 0;
+    margin:0 auto;
+    background: #fff;
+    border-top:0.03rem solid #D3D3D3;
+
+}
+.bottom ul{
+	width:100%;
+	height:100%;
+}
+.shouye{
+	width:25%;
+	height:100%;
+	
+	position:relative;
+	float:left;
+}
+.shouye img{
+	 width:0.6rem;
+    height:0.6rem;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:0.05rem;
+}
+.home1{
+	display:none;
+	/*display: block;*/
+}
+
+.bottom ul li a {
+    display:block;
+    width:0.8rem;
+    height:0.3rem;
+    font-size:0.24rem;
+    position: absolute;
+    left:0.72rem;
+    top:0.7rem;
+    right:0;
+    margin-top:0 auto;
+    color:#BBBBBB;
+}

@@ -1,0 +1,91 @@
+
+html,body{
+        margin:0;
+        padding:0;
+        width:100%;
+        height:100%;
+    }
+    .swiper-container{
+    	width:100%;
+    	height:100%;
+    }
+.swiper-wrapper{
+	width:100%;
+	height:100%;
+	position:relative;
+}
+.box{
+	width:100%;
+   height:100%;
+   background:#E2D1E3;
+   position:relative;
+}
+.nvhai{
+	width:6rem;
+	height:6rem;
+	/*background:red;*/
+	left:0;
+	right:0;
+	margin:0 auto;
+	position:absolute;
+	top:4.6rem;
+}
+.nvhai img{
+	width:100%;
+	height:100%;
+}
+.shiyong img{
+	width:1.6rem;
+	height:1rem;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:1.5rem;
+}
+.heizi span{
+	font-size:0.36rem;
+	width:5.8rem;
+	height:0.6rem;
+	margin:0 auto;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	top:2.8rem;
+	line-height:0.6rem;
+	text-align: center;
+	color:#6A6968;
+}
+.dier{
+	width:100%;
+	height:100%;
+	background:#F7CEAA;
+	position:relative;
+}
+
+.disan{
+	width:100%;
+	height:100%;
+	background:#FDC3BA;
+	position:relative;
+	overflow: hidden;
+}
+.yuan{
+	width:2.5rem;
+	height:0.6rem;
+	position:absolute;
+	left:0;
+	right:0;
+	margin:0 auto;
+	bottom:1.2rem;
+	border:0.03rem solid white;
+	line-height:0.65rem;
+	text-align:center;
+	color:white;
+	font-size:0.36rem;
+	border-radius:0.5rem;
+}
+.yuan a{
+	color:white;
+}

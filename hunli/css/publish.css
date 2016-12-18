@@ -1,0 +1,14 @@
+body, ul, li, ol, img, a, i, input, form, h1, h2, h3, h4, h5, h6, p, b, dl, dt, dd, td, th, pre, span {
+    padding: 0;
+    margin: 0;
+    list-style: none;
+    border: 0;
+    text-decoration: none;
+
+}
+body,html{
+    width:100%;
+    height:100%;
+background: #F0F0F0;
+    
+}
